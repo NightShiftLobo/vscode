@@ -1,0 +1,51 @@
+{
+  "name": "nightshiftlobo",
+  "displayName": "NightShiftLobo",
+  "description": "Professional minimal dark theme engineered for focus, precision, and readability.",
+  "version": "1.0.0",
+  "publisher": "nightshiftlobo",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Themes",
+    "Icon Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "minimal",
+    "professional",
+    "nightshiftlobo",
+    "icon theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nightshiftlobo/nightshiftlobo-vscode-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/nightshiftlobo/nightshiftlobo-vscode-theme/issues"
+  },
+  "homepage": "https://github.com/nightshiftlobo/nightshiftlobo-vscode-theme#readme",
+  "galleryBanner": {
+    "color": "#1B1D23",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "NightShiftLobo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nightshiftlobo-color-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "nightshiftlobo-icons",
+        "label": "NightShiftLobo Icons",
+        "path": "./icons/nightshiftlobo-icon-theme.json"
+      }
+    ]
+  }
+}

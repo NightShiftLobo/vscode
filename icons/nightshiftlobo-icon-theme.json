@@ -1,0 +1,171 @@
+{
+  "$schema": "vscode://schemas/icon-theme",
+  "hidesExplorerArrows": false,
+  "iconDefinitions": {
+    "_file": {
+      "iconPath": "./svg/file.svg"
+    },
+    "_folder": {
+      "iconPath": "./svg/folder.svg"
+    },
+    "_folder_open": {
+      "iconPath": "./svg/folder-open.svg"
+    },
+    "_root_folder": {
+      "iconPath": "./svg/folder.svg"
+    },
+    "_root_folder_open": {
+      "iconPath": "./svg/folder-open.svg"
+    },
+
+    "_code": {
+      "iconPath": "./svg/file-code.svg"
+    },
+    "_data": {
+      "iconPath": "./svg/file-data.svg"
+    },
+    "_markdown": {
+      "iconPath": "./svg/file-markdown.svg"
+    },
+    "_python": {
+      "iconPath": "./svg/file-python.svg"
+    },
+    "_rust": {
+      "iconPath": "./svg/file-rust.svg"
+    },
+    "_go": {
+      "iconPath": "./svg/file-go.svg"
+    },
+    "_java": {
+      "iconPath": "./svg/file-java.svg"
+    },
+    "_web": {
+      "iconPath": "./svg/file-web.svg"
+    },
+    "_shell": {
+      "iconPath": "./svg/file-shell.svg"
+    },
+    "_docker": {
+      "iconPath": "./svg/file-docker.svg"
+    },
+    "_sql": {
+      "iconPath": "./svg/file-sql.svg"
+    },
+    "_git": {
+      "iconPath": "./svg/file-git.svg"
+    }
+  },
+  "file": "_file",
+  "folder": "_folder",
+  "folderExpanded": "_folder_open",
+  "rootFolder": "_root_folder",
+  "rootFolderExpanded": "_root_folder_open",
+
+  "folderNames": {
+    ".github": "_git",
+    ".git": "_git",
+    "docs": "_markdown",
+    "docker": "_docker",
+    "scripts": "_shell",
+    "src": "_code",
+    "test": "_code",
+    "tests": "_code"
+  },
+
+  "folderNamesExpanded": {
+    "docker": "_docker",
+    "src": "_code"
+  },
+
+  "fileNames": {
+    "Dockerfile": "_docker",
+    "docker-compose.yml": "_docker",
+    "docker-compose.yaml": "_docker",
+    ".dockerignore": "_docker",
+    "README.md": "_markdown",
+    "LICENSE": "_data",
+    ".gitignore": "_git",
+    ".gitattributes": "_git",
+    ".gitmodules": "_git",
+    "COMMIT_EDITMSG": "_git",
+    "package.json": "_data",
+    "tsconfig.json": "_data",
+    "Cargo.toml": "_rust",
+    "pyproject.toml": "_python",
+    "pom.xml": "_java",
+    "settings.xml": "_data",
+    "go.mod": "_go",
+    "snowflake.sql": "_sql",
+    "snowsql.sql": "_sql",
+    "Makefile": "_shell"
+  },
+
+  "fileExtensions": {
+    "ts": "_code",
+    "tsx": "_code",
+    "mts": "_code",
+    "cts": "_code",
+    "js": "_code",
+    "jsx": "_code",
+    "mjs": "_code",
+    "cjs": "_code",
+    "py": "_python",
+    "go": "_go",
+    "rs": "_rust",
+    "c": "_code",
+    "h": "_code",
+    "cpp": "_code",
+    "cc": "_code",
+    "cxx": "_code",
+    "hpp": "_code",
+    "java": "_java",
+    "html": "_web",
+    "htm": "_web",
+    "css": "_web",
+    "scss": "_web",
+    "sass": "_web",
+    "json": "_data",
+    "toml": "_data",
+    "xml": "_data",
+    "xsd": "_data",
+    "xsl": "_data",
+    "yaml": "_data",
+    "yml": "_data",
+    "md": "_markdown",
+    "markdown": "_markdown",
+    "sh": "_shell",
+    "bash": "_shell",
+    "zsh": "_shell",
+    "sql": "_sql",
+    "snowsql": "_sql",
+    "snowql": "_sql",
+    "lua": "_code"
+  },
+
+  "languageIds": {
+    "typescript": "_code",
+    "typescriptreact": "_code",
+    "javascript": "_code",
+    "javascriptreact": "_code",
+    "python": "_python",
+    "go": "_go",
+    "rust": "_rust",
+    "c": "_code",
+    "cpp": "_code",
+    "java": "_java",
+    "html": "_web",
+    "css": "_web",
+    "scss": "_web",
+    "json": "_data",
+    "toml": "_data",
+    "xml": "_data",
+    "yaml": "_data",
+    "markdown": "_markdown",
+    "shellscript": "_shell",
+    "dockerfile": "_docker",
+    "sql": "_sql",
+    "snowsql": "_sql",
+    "snowflake": "_sql",
+    "lua": "_code"
+  }
+}
