@@ -9,16 +9,14 @@
     "vscode": "^1.86.0"
   },
   "categories": [
-    "Themes",
-    "Icon Themes"
+    "Themes"
   ],
   "keywords": [
     "theme",
     "dark theme",
     "minimal",
     "professional",
-    "nightshiftlobo",
-    "icon theme"
+    "nightshiftlobo"
   ],
   "repository": {
     "type": "git",
@@ -38,13 +36,6 @@
         "label": "NightShiftLobo",
         "uiTheme": "vs-dark",
         "path": "./themes/nightshiftlobo-color-theme.json"
-      }
-    ],
-    "iconThemes": [
-      {
-        "id": "nightshiftlobo-icons",
-        "label": "NightShiftLobo Icons",
-        "path": "./icons/nightshiftlobo-icon-theme.json"
       }
     ]
   }
