@@ -35,7 +35,27 @@
       {
         "label": "NightShiftLobo",
         "uiTheme": "vs-dark",
-        "path": "./themes/nightshiftlobo-color-theme.json"
+        "path": "./themes/nightshiftlobo-eclipse-color-theme.json"
+      },
+      {
+        "label": "NightShiftLobo Eclipse",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nightshiftlobo-eclipse-color-theme.json"
+      },
+      {
+        "label": "NightShiftLobo Shadow",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nightshiftlobo-shadow-color-theme.json"
+      },
+      {
+        "label": "NightShiftLobo Obsidian",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nightshiftlobo-obsidian-color-theme.json"
+      },
+      {
+        "label": "NightShift Lobo Dawn",
+        "uiTheme": "vs",
+        "path": "./themes/nightshift-lobo-dawn-color-theme.json"
       }
     ]
   }
