@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "NightShiftLobo Dawn",
+  "name": "NSL Modern Day",
   "type": "light",
   "semanticHighlighting": true,
   "_comment": "NightShift Lobo Dawn: professional minimal daytime theme with muted accents and calm contrast.",
@@ -266,26 +266,26 @@
   "_comment.semanticTokenColors": "Semantic tokens tuned for structural clarity with calm accents.",
   "semanticTokenColors": {
     "variable": "#2E3440",
-    "variable.readonly": "#B48C42",
-    "variable.defaultLibrary": "#3F8F95",
-    "variable.readonly.defaultLibrary": "#B48C42",
+    "variable.readonly": "#6C83D6",
+    "variable.defaultLibrary": "#4F949A",
+    "variable.readonly.defaultLibrary": "#6C83D6",
     "parameter": "#4C5568",
     "property": "#4F949A",
     "function": "#4F6EDB",
     "method": "#4F6EDB",
-    "class": "#7A63B8",
-    "interface": "#3F8F95",
-    "enum": "#7A63B8",
-    "enumMember": "#7A63B8",
-    "type": "#7A63B8",
-    "typeParameter": "#3F8F95",
-    "decorator": "#7A63B8",
-    "namespace": "#3F8F95",
+    "class": "#6C83D6",
+    "interface": "#4F949A",
+    "enum": "#6C83D6",
+    "enumMember": "#6C83D6",
+    "type": "#6C83D6",
+    "typeParameter": "#4F949A",
+    "decorator": "#6C83D6",
+    "namespace": "#4F949A",
     "module": "#4F949A",
-    "struct": "#7A63B8",
-    "boolean": "#B48C42",
-    "number": "#B87A52",
-    "selfKeyword": "#3F8F95",
+    "struct": "#6C83D6",
+    "boolean": "#6C83D6",
+    "number": "#B48C42",
+    "selfKeyword": "#4F949A",
     "heading": "#4F6EDB",
     "text.strong": {
       "foreground": "#2E3440",
@@ -295,14 +295,14 @@
       "foreground": "#4C5568",
       "italic": true
     },
-    "text.math": "#7A63B8",
+    "text.math": "#6C83D6",
     "tomlTableKey": "#4F949A",
     "tomlArrayKey": "#4F949A",
-    "function.decorator:python": "#7A63B8",
-    "class:python": "#7A63B8",
-    "class.builtin:python": "#7A63B8",
-    "type.defaultLibrary:go": "#3F8F95",
-    "variable.typeHint:python": "#7A63B8",
+    "function.decorator:python": "#6C83D6",
+    "class:python": "#6C83D6",
+    "class.builtin:python": "#6C83D6",
+    "type.defaultLibrary:go": "#4F949A",
+    "variable.typeHint:python": "#6C83D6",
     "comment": {
       "foreground": "#7A8194",
       "italic": true
@@ -332,12 +332,12 @@
         "constant.numeric.yaml",
         "constant.numeric.json"
       ],
-      "settings": { "foreground": "#B87A52" }
+      "settings": { "foreground": "#B48C42" }
     },
     {
       "name": "Booleans",
       "scope": ["constant.language.boolean", "constant.bool", "constant.language.boolean.yaml"],
-      "settings": { "foreground": "#B48C42", "fontStyle": "bold" }
+      "settings": { "foreground": "#6C83D6", "fontStyle": "bold" }
     },
     {
       "name": "Variables",
@@ -367,7 +367,7 @@
     {
       "name": "Keywords and Control Flow",
       "scope": ["keyword", "keyword.control", "storage.type", "storage.modifier"],
-      "settings": { "foreground": "#B48C42", "fontStyle": "bold" }
+      "settings": { "foreground": "#6C83D6", "fontStyle": "bold" }
     },
     {
       "name": "Operators and Delimiters",
@@ -377,22 +377,22 @@
     {
       "name": "Types Classes Interfaces Enums",
       "scope": ["entity.name.type", "entity.name.class", "entity.name.interface", "entity.name.enum", "support.type", "support.class"],
-      "settings": { "foreground": "#7A63B8", "fontStyle": "bold" }
+      "settings": { "foreground": "#6C83D6", "fontStyle": "bold" }
     },
     {
       "name": "Namespaces and Modules",
       "scope": ["entity.name.namespace", "entity.name.module", "support.module"],
-      "settings": { "foreground": "#3F8F95" }
+      "settings": { "foreground": "#4F949A" }
     },
     {
       "name": "Decorators",
       "scope": ["meta.annotation", "storage.type.annotation", "entity.name.function.decorator", "punctuation.definition.annotation"],
-      "settings": { "foreground": "#7A63B8", "fontStyle": "italic" }
+      "settings": { "foreground": "#6C83D6", "fontStyle": "italic" }
     },
     {
       "name": "Regex and Escapes",
       "scope": ["string.regexp", "constant.character.escape"],
-      "settings": { "foreground": "#3F8F95" }
+      "settings": { "foreground": "#4F949A" }
     },
     {
       "name": "Built-ins and Preprocessor",
@@ -406,7 +406,7 @@
         "keyword.control.import",
         "meta.import"
       ],
-      "settings": { "foreground": "#3F8F95" }
+      "settings": { "foreground": "#4F949A" }
     },
     {
       "name": "Type Parameters and Generics",
@@ -417,12 +417,12 @@
         "punctuation.definition.typeparameters",
         "punctuation.definition.generic"
       ],
-      "settings": { "foreground": "#7A63B8" }
+      "settings": { "foreground": "#6C83D6" }
     },
     {
       "name": "This Self Keyword",
       "scope": ["variable.language.this", "variable.language.self", "variable.language.special.self", "variable.language"],
-      "settings": { "foreground": "#3F8F95" }
+      "settings": { "foreground": "#4F949A" }
     },
     {
       "name": "Template String Interpolation",
@@ -436,7 +436,7 @@
     {
       "name": "New Keyword and Arrow",
       "scope": ["keyword.operator.new", "storage.type.function.arrow", "punctuation.definition.arrow"],
-      "settings": { "foreground": "#B48C42", "fontStyle": "bold" }
+      "settings": { "foreground": "#6C83D6", "fontStyle": "bold" }
     },
     {
       "name": "JSDoc and Doc Keywords",
@@ -459,7 +459,7 @@
         "variable.sass",
         "support.type.vendored.property-name"
       ],
-      "settings": { "foreground": "#3F8F95" }
+      "settings": { "foreground": "#4F949A" }
     },
     {
       "name": "CSS Percentage and Attribute Selectors",
@@ -469,7 +469,7 @@
         "meta.attribute-selector.css",
         "string.quoted.attribute-selector.css"
       ],
-      "settings": { "foreground": "#B87A52" }
+      "settings": { "foreground": "#B48C42" }
     },
     {
       "name": "YAML/JSON Constants and Anchors",
@@ -480,7 +480,7 @@
         "entity.name.type.anchor.yaml",
         "punctuation.definition.anchor.yaml"
       ],
-      "settings": { "foreground": "#B48C42" }
+      "settings": { "foreground": "#6C83D6" }
     },
     {
       "name": "YAML Frontmatter Delimiters",
@@ -523,7 +523,7 @@
         "keyword.codetag.notation",
         "storage.type.class.todo"
       ],
-      "settings": { "foreground": "#B87A52", "fontStyle": "bold" }
+      "settings": { "foreground": "#B48C42", "fontStyle": "bold" }
     },
     {
       "name": "HTML Entities and Components",
@@ -533,7 +533,7 @@
         "support.class.component",
         "entity.name.tag.custom"
       ],
-      "settings": { "foreground": "#7A63B8" }
+      "settings": { "foreground": "#6C83D6" }
     },
     {
       "name": "Markdown Auto Links and Raw Code",
@@ -543,7 +543,7 @@
         "markup.inline.raw.string.markdown",
         "markup.raw.block"
       ],
-      "settings": { "foreground": "#3F8F95" }
+      "settings": { "foreground": "#4F949A" }
     },
     {
       "name": "Markdown Fence Language and Separators",
@@ -573,7 +573,7 @@
         "meta.function.parameters.python variable.parameter.type-hint.python",
         "meta.typehint.python"
       ],
-      "settings": { "foreground": "#7A63B8" }
+      "settings": { "foreground": "#6C83D6" }
     },
     {
       "name": "Rust Specific",
@@ -585,7 +585,7 @@
         "entity.name.macro.rust",
         "support.type.rust"
       ],
-      "settings": { "foreground": "#7A63B8" }
+      "settings": { "foreground": "#6C83D6" }
     },
     {
       "name": "Rust Lifetimes and Format",
@@ -594,7 +594,7 @@
         "punctuation.definition.lifetime.rust",
         "constant.other.placeholder.rust"
       ],
-      "settings": { "foreground": "#7A63B8" }
+      "settings": { "foreground": "#6C83D6" }
     },
     {
       "name": "Shell Specific",
@@ -605,7 +605,7 @@
         "meta.interpolation.parameter.shell",
         "variable.parameter.normal.shell"
       ],
-      "settings": { "foreground": "#3F8F95" }
+      "settings": { "foreground": "#4F949A" }
     },
     {
       "name": "Regex Detailed",
@@ -616,7 +616,7 @@
         "keyword.operator.or.regexp",
         "constant.other.character-class.set.regexp"
       ],
-      "settings": { "foreground": "#7A63B8" }
+      "settings": { "foreground": "#6C83D6" }
     },
 
     {
@@ -646,7 +646,7 @@
     {
       "name": "XML Doctype",
       "scope": ["meta.tag.sgml.doctype"],
-      "settings": { "foreground": "#7A63B8" }
+      "settings": { "foreground": "#6C83D6" }
     },
 
     {
@@ -667,7 +667,7 @@
     {
       "name": "Markdown Heading 3",
       "scope": ["markup.heading.3.markdown"],
-      "settings": { "foreground": "#7A63B8", "fontStyle": "bold" }
+      "settings": { "foreground": "#6C83D6", "fontStyle": "bold" }
     },
     {
       "name": "Markdown Heading 4",
@@ -677,7 +677,7 @@
     {
       "name": "Markdown Heading 5",
       "scope": ["markup.heading.5.markdown"],
-      "settings": { "foreground": "#3F8F95", "fontStyle": "bold" }
+      "settings": { "foreground": "#4F949A", "fontStyle": "bold" }
     },
     {
       "name": "Markdown Heading 6",
@@ -717,7 +717,7 @@
     {
       "name": "Markdown Links",
       "scope": ["markup.link", "markup.underline.link", "markup.underline.link.markdown"],
-      "settings": { "foreground": "#3F8F95", "fontStyle": "underline" }
+      "settings": { "foreground": "#4F949A", "fontStyle": "underline" }
     },
     {
       "name": "Markdown Link Punctuation and References",
@@ -743,7 +743,7 @@
     {
       "name": "YAML Booleans",
       "scope": ["constant.language.boolean.yaml"],
-      "settings": { "foreground": "#B48C42", "fontStyle": "bold" }
+      "settings": { "foreground": "#6C83D6", "fontStyle": "bold" }
     },
     {
       "name": "YAML Key Value Punctuation",
@@ -764,7 +764,7 @@
     {
       "name": "JSON Constants and Numbers",
       "scope": ["constant.language.json", "constant.numeric.json"],
-      "settings": { "foreground": "#B87A52" }
+      "settings": { "foreground": "#B48C42" }
     },
     {
       "name": "JSON Key Value Punctuation",
