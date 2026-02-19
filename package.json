@@ -56,16 +56,6 @@
         "label": "NightShift Lobo Dawn",
         "uiTheme": "vs",
         "path": "./themes/nightshift-lobo-dawn-color-theme.json"
-      },
-      {
-        "label": "NSL Modern Day",
-        "uiTheme": "vs",
-        "path": "./themes/nsl-modern-day-color-theme.json"
-      },
-      {
-        "label": "NLS Modern Night",
-        "uiTheme": "vs-dark",
-        "path": "./themes/nsl-modern-night-color-theme.json"
       }
     ]
   }

@@ -61,7 +61,7 @@
     "titleBar.inactiveForeground": "#8891A8",
     "titleBar.border": "#353C50",
 
-    "activityBar.background": "#141821",
+    "activityBar.background": "#2A3142",
     "activityBar.foreground": "#D9DEEA",
     "activityBar.inactiveForeground": "#8891A8",
     "activityBar.border": "#353C50",
@@ -257,7 +257,7 @@
     "mergeEditor.conflict.handledFocused.border": "#74C99B",
     "mergeEditor.conflictingLines.background": "#222838",
 
-    "panel.background": "#141821",
+    "panel.background": "#222838",
     "panel.border": "#353C50",
     "panel.dropBorder": "#748EF2",
     "panelTitle.activeBorder": "#748EF2",
@@ -280,11 +280,11 @@
     "terminal.ansiCyan": "#5DB8CB",
     "terminal.ansiWhite": "#D9DEEA",
     "terminal.ansiBrightBlack": "#8891A8",
-    "terminal.ansiBrightRed": "#B297F0",
+    "terminal.ansiBrightRed": "#DE8A90",
     "terminal.ansiBrightGreen": "#74C99B",
     "terminal.ansiBrightYellow": "#D49776",
     "terminal.ansiBrightBlue": "#748EF2",
-    "terminal.ansiBrightMagenta": "#5F77D1",
+    "terminal.ansiBrightMagenta": "#B297F0",
     "terminal.ansiBrightCyan": "#62AEBE",
     "terminal.ansiBrightWhite": "#D9DEEA",
 
@@ -406,16 +406,16 @@
     "variable.readonly": "#DCBE7C",
     "variable.defaultLibrary": "#5DB8CB",
     "variable.readonly.defaultLibrary": "#DCBE7C",
-    "parameter": "#A8AFC8",
+    "parameter": "#D49776",
     "property": "#62AEBE",
-    "function": "#748EF2",
-    "method": "#748EF2",
+    "function": "#5DB8CB",
+    "method": "#5DB8CB",
     "class": "#B297F0",
     "interface": "#5DB8CB",
     "enum": "#B297F0",
     "enumMember": "#B297F0",
-    "type": "#B297F0",
-    "typeParameter": "#5DB8CB",
+    "type": "#DCBE7C",
+    "typeParameter": "#DCBE7C",
     "decorator": "#B297F0",
     "namespace": "#5DB8CB",
     "module": "#62AEBE",
@@ -438,7 +438,7 @@
     "function.decorator:python": "#B297F0",
     "class:python": "#B297F0",
     "class.builtin:python": "#B297F0",
-    "type.defaultLibrary:go": "#5DB8CB",
+    "type.defaultLibrary:go": "#DCBE7C",
     "variable.typeHint:python": "#B297F0",
     "comment": {
       "foreground": "#6C748A",
@@ -484,7 +484,7 @@
     {
       "name": "Parameters",
       "scope": ["variable.parameter", "meta.function.parameters"],
-      "settings": { "foreground": "#A8AFC8" }
+      "settings": { "foreground": "#D49776" }
     },
     {
       "name": "Properties and Fields",
@@ -499,12 +499,12 @@
     {
       "name": "Functions and Methods",
       "scope": ["entity.name.function", "entity.name.method", "support.function", "meta.function-call", "meta.method-call"],
-      "settings": { "foreground": "#748EF2", "fontStyle": "italic" }
+      "settings": { "foreground": "#5DB8CB", "fontStyle": "italic" }
     },
     {
       "name": "Keywords and Control Flow",
       "scope": ["keyword", "keyword.control", "storage.type", "storage.modifier"],
-      "settings": { "foreground": "#DCBE7C", "fontStyle": "bold" }
+      "settings": { "foreground": "#748EF2", "fontStyle": "bold" }
     },
     {
       "name": "Operators and Delimiters",
@@ -573,7 +573,7 @@
     {
       "name": "New Keyword and Arrow",
       "scope": ["keyword.operator.new", "storage.type.function.arrow", "punctuation.definition.arrow"],
-      "settings": { "foreground": "#DCBE7C", "fontStyle": "bold" }
+      "settings": { "foreground": "#748EF2", "fontStyle": "bold" }
     },
     {
       "name": "JSDoc and Doc Keywords",
@@ -834,7 +834,7 @@
     {
       "name": "Markdown Inline Code",
       "scope": ["markup.inline.raw"],
-      "settings": { "foreground": "#74C99B", "background": "#22252C" }
+      "settings": { "foreground": "#74C99B", "background": "#222838" }
     },
     {
       "name": "Markdown Fenced Code Block Markers",
@@ -864,7 +864,7 @@
     {
       "name": "Frontmatter",
       "scope": ["meta.embedded.block.frontmatter"],
-      "settings": { "foreground": "#A8AFC8", "background": "#22252C" }
+      "settings": { "foreground": "#A8AFC8", "background": "#222838" }
     },
 
     {
