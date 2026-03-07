@@ -2091,6 +2091,90 @@
       "settings": {
         "foreground": "#DA848A"
       }
+    },
+    {
+      "name": "SQL Base Text",
+      "scope": [
+        "source.sql",
+        "text.sql",
+        "meta.embedded.inline.sql",
+        "meta.embedded.block.sql"
+      ],
+      "settings": {
+        "foreground": "#A4ABC2"
+      }
+    },
+    {
+      "name": "SQL Identifiers",
+      "scope": [
+        "entity.name.table.sql",
+        "entity.name.column.sql",
+        "entity.name.alias.sql",
+        "variable.other.readwrite.sql",
+        "meta.identifier.sql",
+        "source.sql variable.other",
+        "source.sql variable.other.readwrite",
+        "source.sql variable.other.object",
+        "source.sql variable.other.alias",
+        "source.sql variable.parameter",
+        "source.sql meta.identifier",
+        "source.sql identifier",
+        "source.sql meta.path"
+      ],
+      "settings": {
+        "foreground": "#CF9272"
+      }
+    },
+    {
+      "name": "SQL Functions",
+      "scope": [
+        "support.function.sql",
+        "support.function.aggregate.sql",
+        "meta.function-call.sql"
+      ],
+      "settings": {
+        "foreground": "#6F88E6",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "SQL Operators and Punctuation",
+      "scope": [
+        "keyword.operator.sql",
+        "punctuation.separator.period.sql",
+        "punctuation.separator.comma.sql",
+        "punctuation.terminator.statement.sql",
+        "punctuation.section.group.begin.sql",
+        "punctuation.section.group.end.sql",
+        "source.sql punctuation.accessor",
+        "source.sql punctuation.separator.period",
+        "source.sql punctuation.separator.comma",
+        "source.sql punctuation.terminator.statement",
+        "source.sql punctuation.section.group.begin",
+        "source.sql punctuation.section.group.end"
+      ],
+      "settings": {
+        "foreground": "#60A9B8"
+      }
+    },
+    {
+      "name": "SQL Strings",
+      "scope": [
+        "string.quoted.single.sql",
+        "string.quoted.double.sql"
+      ],
+      "settings": {
+        "foreground": "#70C693"
+      }
+    },
+    {
+      "name": "SQL Numbers",
+      "scope": [
+        "constant.numeric.sql"
+      ],
+      "settings": {
+        "foreground": "#CF9272"
+      }
     }
   ]
 }
